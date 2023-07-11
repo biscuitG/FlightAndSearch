@@ -21,8 +21,8 @@ ROle BAsed( all the models in 1 model folder , same for controllers ,etc )
 ## Project Setup
   - clone project
   - execute npm install on root dorectory
-  - create `.env file` in root folder and add environment variable 
-      - `PORT = 3000` 
+  - create .env file in root folder and add environment variable 
+      - `PORT = 3000 ` 
   - Inside `src/config` folder create new file `config.json` and then add following code of json
   ```
     {
