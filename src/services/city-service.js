@@ -1,19 +1,19 @@
 const {CityRepository}= reuqire('../repository/index');
 
+// when we will call city service , a new city repository will create
 class CityService{
    
     constructor(){
-        this.cityRepository = new CityRepository();
+         this.cityRepository = new CityRepository();
     }
   
-
     async createCity(data){
         try {
             const city= await this.cityRepository.createCity(data);
             return city;
         } catch (error) {
             console.log("Something went wrong");
-            throw{error};
+             throw{error};
         }
     }
 
